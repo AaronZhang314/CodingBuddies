@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+}
+
+.welcome{
+	color: white;
+}
+
+.bground{
+	background-color: rgba(133, 173, 173, 0.75);
+}
+.showcase{
+	background-image:url('../images/comsci.jpg');
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.navbar-nav{
+	padding-left:50px;
+}
+

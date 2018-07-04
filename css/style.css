@@ -21,9 +21,12 @@ body {
 	padding-right:10px;
 }
 
+.button:active{
+	color:#fff;
+}
+
 .button:hover{
 	background-color:#686E74;
-	color:white;
 }
 
 .row{
@@ -87,3 +90,18 @@ body {
 }
 
 
+
+@-webkit-keyframes typing { from { width: 0; } }
+@-webkit-keyframes blink { 50% { border-color: transparent; } }
+
+.typeWriter { 
+    font-size: 65px;
+    font-family: Courier, Monospace;
+    border-right: .075em solid black; 
+    margin: 0 auto;
+    width: 23ch;
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: typing 2s steps(23, end),
+               blink .5s step-end infinite alternate;
+}

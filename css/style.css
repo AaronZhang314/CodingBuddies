@@ -5,8 +5,8 @@ a:hover{
 
 body {
   padding-top: 45px;
+  background-color: #F0EEEE;
 }
-
 
 .bground{
 	background-color: rgba(133, 173, 173, 0.75);
@@ -26,10 +26,25 @@ body {
 	color:white;
 }
 
-.lessonTable{
-	padding-top:50px;
+.row{
+	padding:25px;
 }
 
+.lessonPadding{
+	padding-top:30px;
+}
+
+.lessonTable{
+	padding:5px 20px 2px 20px;
+}
+
+.navbar-nav{
+	padding-left:50px;
+}
+
+.navbar{
+	padding:0px 16px;
+}
 
 .showcase{
 	background-image:url('../images/comsci.jpg');
@@ -44,16 +59,17 @@ body {
   background-color: #e9ecef;
 }
 
-.navbar-nav{
-	padding-left:50px;
-}
-
-.navbar{
-	padding:0px 16px;
+.textContainer{
+	background-color: white;
+	border-radius:15px;
 }
 
 .tHead{
 	font-size:35px;
+}
+
+.tHead th{
+	border-top:none;
 }
 
 .tBody{

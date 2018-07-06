@@ -33,6 +33,10 @@ body {
 	padding:25px;
 }
 
+.learnHeader{
+	color: #343a40;
+}
+
 .lessonPadding{
 	padding-top:30px;
 }
@@ -65,6 +69,7 @@ body {
 .textContainer{
 	background-color: white;
 	border-radius:15px;
+	margin-bottom:25px;
 }
 
 .tHead{
@@ -89,19 +94,23 @@ body {
 	padding-bottom:15px;
 }
 
-
+.typeWriter{
+	font-size: 65px;
+	   font-family: Courier, Monospace;
+}
 
 @-webkit-keyframes typing { from { width: 0; } }
 @-webkit-keyframes blink { 50% { border-color: transparent; } }
 
-.typeWriter { 
-    font-size: 65px;
-    font-family: Courier, Monospace;
-    border-right: .075em solid black; 
-    margin: 0 auto;
-    width: 23ch;
-    white-space: nowrap;
-    overflow: hidden;
-    -webkit-animation: typing 2s steps(23, end),
-               blink .5s step-end infinite alternate;
+@media(min-width:1000px){
+	.typeWriter { 
+	    border-right: .075em solid black; 
+	    margin: 0 auto;
+	    width: 23ch;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    -webkit-animation: typing 2s steps(23, end),
+	               blink .5s step-end infinite alternate;
+	}
 }
+

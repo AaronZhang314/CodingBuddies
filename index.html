@@ -24,23 +24,23 @@
 
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active button">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown button">
-            <a class="nav-link dropdown-toggle" href="lessons.html" data-toggle="dropdown">Lessons</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Variables and Math Operations</a>
-              <a class="dropdown-item" href="#">If and Else Statements</a>
-              <a class="dropdown-item" href="#">While Loops</a>
-              <a class="dropdown-item" href="#">For Loops</a>
-            </div>
-          </li>
-          <li class="nav-item button">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          	<li class="nav-item active button">
+            	<a class="nav-link" href="index.html">Home</a>
+          	</li>
+			<li class="nav-item dropdown button">
+            	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Links</a>
+	            <div class="dropdown-menu">
+	              <a class="dropdown-item" href="https://repl.it/repls" target="_blank">Replit</a>
+	              <a class="dropdown-item" href="https://wcipeg.com/main" target="_blank">PEG</a>
+	              <a class="dropdown-item" href="https://dmoj.ca/" target="_blank">DMOJ</a>
+	            </div>
+          	</li>
+
+          	<li class="nav-item button">
+            	<a class="nav-link" href="contact.html">Contact</a>
+          	</li>
             <li class="nav-item button">
-              <a class="nav-link" href="#">About</a>
+            	<a class="nav-link" href="#">About</a>
             </li>
         </ul>
       </div>
@@ -55,45 +55,77 @@
         </div>
       </div>
 
-      <div class="textContainer container">
-        <div class="row">
-          <div class="col">
-            <h2>Most Recent Lesson</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-            <p><a class="btn btn-secondary" href="lessons.html" role="button">More Lessons &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Explanation</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-        </div>
+      <div class="container-fluid">
+      	<div class="row">
+      		<div class="col-md-2">
+		      <div class="textContainer container-fluid">
+		      	<div class="row lessSidePadding">
+		      		<div class="col">
+		      			<h4>Lessons</h4>
+		      			<ul id="lessonBar">
+				        	<li><a href="#">Variables and Input</a></li>
+				            <li><a href="#">If and Else Statements</a></li>
+				            <li><a href="#">While Loops</a></li>
+				            <li><a href="#">For Loops</a></li>
+				            <li><a href="#">Lists</a></li>
+				            <li><a href="#">Dictionaries</a></li>
+				         </ul>
+		      		</div>
+		      	</div>
+		      </div>
+		  	</div>
+
+		  	<div class="col-md-10">
+
+		      <div class="textContainer container-fluid">
+		        <div class="row">
+		          <div class="col">
+		            <h2>Most Recent Lesson</h2>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod								  <!--Change Every Week (begin)-->
+		            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+		            <img src="images/lesson1.png" class="code">
+		            <a class="btn btn-secondary" href="#" role="button">&laquo; Previous Lesson</a>
+		            <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>	          <!--Update Every Week-->
+		          </div>
+		          <div class="col-md-4">
+		            <h2>Explanation</h2>
+		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		          </div>
+		        </div>
+		      </div>
+		      <div class="textContainer container-fluid">
+		      	<div class="row">
+			      	<div class="col-md-10">
+			      		<h2>Try It Out!</h2>
+			      		<ul>
+			      			<li>Ask for the user's age and print out how old he/she will be in 5 years.</li>
+			      			<li>Input a number and add 3, multiply by 2 and subtract 7. Then print the result.</li>
+			      		</ul>
+			      		<h2>Related Problems</h2>
+			      		<ul>
+			      			<li><a href="http://wcipeg.com" target="_blank">wcipeg.com</a></li>
+			      			<li><a href="http://dmoj.ca" target="_blank">dmoj.ca</a></li>									<!--Change Every Week (end)-->
+			      		</ul>
+			      	</div>
+		      	</div>
+		      </div> <!-- /container -->
+		  </div>
+		</div>
       </div>
       
-      <div class="textContainer container">
-      	<div class="row">
-	      	<div class="col">
-	      		<h2>Related Problems</h2>
-	      		<ul>
-	      			<li><a href="http://wcipeg.com" target="_blank">wcipeg.com</a></li>
-	      			<li><a href="http://dmoj.ca" target="_blank">dmoj.ca</a></li>
-	      		</ul>
-	      	</div>
-      	</div>
-      </div> <!-- /container -->
 
     </main>
 
-    <footer class="container">
+    <footer class="container copyright">
       <p>&copy; Aaron Zhang 2018</p>
     </footer>
 

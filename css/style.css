@@ -8,6 +8,7 @@ body {
   background-color: #F0EEEE;
 }
 
+
 .bground{
 	background-color: rgba(133, 173, 173, 0.75);
 }
@@ -29,16 +30,38 @@ body {
 	background-color:#686E74;
 }
 
-.row{
-	padding:25px;
+.code {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.copyright{
+	text-align:center;
 }
 
 .learnHeader{
-	color: #343a40;
+	color: rgb(55,55,55);
 }
 
 .lessonPadding{
 	padding-top:30px;
+}
+
+#lessonBar{
+	padding-left:0px;
+}
+
+#lessonBar li{
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.lessSidePadding{
+	padding-left:5px;
+	padding-right:5px;
 }
 
 .lessonTable{
@@ -51,6 +74,20 @@ body {
 
 .navbar{
 	padding:0px 16px;
+}
+
+.nextButton{
+	float:right;
+}
+
+.row{
+	padding:10px 20px 20px 20px;
+}
+
+.sidebar{
+	font-size:12px;
+	padding-left:none;
+	padding-right:none;
 }
 
 .showcase{

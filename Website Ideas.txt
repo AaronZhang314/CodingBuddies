@@ -1,0 +1,31 @@
+*****************What to add
+
+add to contact page and about page
+
+add individual lessons
+
+move lessons to navbar view more to link to main lessons page
+
+modulos and += lesson in printing
+
+******************Advanced
+
+add chat for discussions - on side bar
+
+create an online judge for the test questions
+	- who ever answers the most (earliest) gets prize at end of month or something
+	- leaderboard (probably top 3, click to see all) 
+
+
+******************What to update after each week
+
+most recent lesson (front page)
+
+
+******************What to update when adding new lesson
+
+add in lessons under navbar
+
+add in lessons page
+
+add links to related problems 

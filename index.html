@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="A website welcoming the coding buddies and anyone else who wants to learn the basics of computer programming (mainly python 2.7)">
+    <meta name="author" content="Aaron Zhang">
     <link rel="icon" href="#">
 
     <title>Coding Buddies</title>
@@ -27,6 +27,17 @@
           	<li class="nav-item active button">
             	<a class="nav-link" href="index.html">Home</a>
           	</li>
+          	<li class="nav-item dropdown button">
+            	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
+	            <div class="dropdown-menu">
+	                <a class="dropdown-item" href="lessonPages/Printing.html" target="_blank">Printing and Variables</a>
+	                <a class="dropdown-item" href="lessonPages/If.html" target="_blank">If and Else Statements</a>
+	                <a class="dropdown-item" href="lessonPages/While.html" target="_blank">While Loops</a>
+	                <a class="dropdown-item" href="lessonPages/For.html" target="_blank">For Loops</a>
+	                <a class="dropdown-item" href="lessonPages/Lists.html" target="_blank">Lists</a>
+	            </div>
+          	</li>
+
 			<li class="nav-item dropdown button">
             	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Links</a>
 	            <div class="dropdown-menu">
@@ -40,7 +51,7 @@
             	<a class="nav-link" href="contact.html">Contact</a>
           	</li>
             <li class="nav-item button">
-            	<a class="nav-link" href="#">About</a>
+            	<a class="nav-link" href="about.html">About</a>
             </li>
         </ul>
       </div>
@@ -57,38 +68,35 @@
 
       <div class="container-fluid">
       	<div class="row">
-      		<div class="col" id="lessonBar">
-		      	<h3>Lessons</h3>
-		      	<ul id="lessonList">
-				    <li><a href="#">Variables and Input</a></li>
-				    <li><a href="#">If and Else Statements</a></li>
-				    <li><a href="#">While Loops</a></li>
-				    <li><a href="#">For Loops</a></li>
-				    <li><a href="#">Lists</a></li>
-				    <li><a href="#">Dictionaries</a></li>
-				</ul>
-		  	</div>
-		  	<div class="col-lg-10">
+		  	<div class="col-lg-9">
 		      <div class="textContainer container-fluid">
 		        <div class="row">
 		          <div class="col" id="recent">
-		            <h2>Most Recent Lesson</h2>
-		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod								  <!--Change Every Week (begin)-->
-		            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-		            <img src="images/codeForL1.png" class="code">
+		            <h2>Most Recent Lesson <h4>- Printing, Variables and Input</h4></h2>
+		            <p>Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. Variables can be assigned values by using an equal sign ("="). Variables can be changed by assigning them with new values or adding onto the existing value.</p>
+		            <img src="images/printing.png" class="code">
+		            <p>Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.</p>
+		            <ul>
+		            	<li>raw_input("Optional text") - can take in any type of input, from sentences to numbers</li>
+		            	<li>input("Optional text") - can take in only numbers, and unlike raw_inputs, can perform math equations with them</li>
+		            </ul>
+		            <img src="images/input.png" class="code">
 		          </div>
 		          <div class="col-xl-4" id="explanation">
-		            <h2>Explanation</h2>
-		            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
-		            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		            <h2>More Details</h2>
+		            <p>The main variables that are often used are strings, integers, doubles, characters, boolean.</p>
+		            <ul>
+						<li><strong>Strings</strong> - contain letters, words or even sentences.</li>
+						<li><strong>Integers</strong> - contain any whole number (including negative numbers)</li>
+						<li><strong>Doubles</strong> - contain decimal numbers</li>
+						<li><strong>Characters</strong> - contain any single character or symbol</li>
+						<li><strong>Boolean</strong> - are either true or false</li>
+					</ul>
+					<p>
+					The main mathematical operations are addition (+), subtraction (-), multiplication (*), division (/) and modulos (%).
+
+					*insert modulos definition
+					</p>
 		          </div>
 		        </div>
 		        <div class="next-previous">
@@ -101,7 +109,7 @@
 			      	<div class="col-xl-10">
 			      		<h2>Try It Out!</h2>
 			      		<ul>
-			      			<li>Ask for the user's age and print out how old he/she will be in 5 years.</li>
+			      			<li>Ask for the user's age and print out how old the user will be in 5 years.</li>
 			      			<li>Input a number and add 3, multiply by 2 and subtract 7. Then print the result.</li>
 			      		</ul>
 			      		<h2>Related Problems</h2>
@@ -113,6 +121,10 @@
 		      	</div>
 		      </div> <!-- /container -->
 		  </div>
+		  <div class="col" id="lessonBar">
+		      	<h3>Discussion</h3>
+		      	<p>Chat will be added later on!</p>
+		  	</div>
 		</div>
       </div>
     </main>

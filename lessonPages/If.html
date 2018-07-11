@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="#">
+
+    <title>Coding Buddies</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <img src="../images/logo.png" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="30" width="100">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item button">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown button">
+              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#" target="_blank">Printing and Variables</a>
+                <a class="dropdown-item" href="If.html" target="_blank">If and Else Statements</a>
+                <a class="dropdown-item" href="While.html" target="_blank">While Loops</a>
+                <a class="dropdown-item" href="For.html" target="_blank">For Loops</a>
+                <a class="dropdown-item" href="Lists.html" target="_blank">Lists</a>
+              </div>
+            </li>
+          <li class="nav-item dropdown button">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Links</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="https://repl.it/repls" target="_blank">Replit</a>
+              <a class="dropdown-item" href="https://wcipeg.com/main target="_blank"">PEG</a>
+              <a class="dropdown-item" href="https://dmoj.ca/" target="_blank">DMOJ</a>
+            </div>
+          </li>
+          <li class="nav-item button">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+          <li class="nav-item button">
+            <a class="nav-link" href="../about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+     <div class="container-fluid">
+        <div class="row">
+        <div class="col-lg-9">
+          <div class="textContainer container-fluid">
+            <div class="row">
+              <div class="col" id="recent">
+                <h2>If and Else Statements</h2>
+                <p>In this lesson, we will go over the functions of if and else statements. These statements help the computer make decisions within the program. Using an if statement will create a condition where if the condition is met, the following indented code will run. <strong>When comparing two objects, such as variables, a double equals sign is used ("==")</strong>. This is important as using only one equal sign assigns the second value to the first variable, rather than comparing the two. 
+                <img src="../images/if.png" class="code">
+                You can have as many if statements as you want, but nothing will happen if none of the conditions are met. That is where an else statement is used. An else statement must come after at least one if statement and runs if none of the conditions directly above are met. 
+                <img src="../images/else.png" class="code">
+                There are also a combination of the two - elif (else if) statements. This acts as a regular if statement, however, if any if or elif conditions are met, this code doesn't run even if its condition is met.</p>
+                <img src="../images/elif.png" class="code">
+              </div>
+              <div class="col-xl-4" id="explanation">
+                <h2>More Details</h2>
+                <p>For each if or elif statement, there can be more than one condition set. This can be done using <em>"or"</em> or <em>"and"</em> inbetween conditions. The <em>"or"</em> creates a situation where if either of the conditions are met, the code beneath runs. On the other hand, <em>"and"</em> requires all the conditions mentioned to be met to run.
+                  <img src="../images/or_and.png" class="code"></p>
+              </div>
+            </div>
+            <div class="next-previous">
+              <a class="btn btn-secondary" href="Printing.html" role="button">&laquo; Previous Lesson</a>
+              <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>  
+          </div>
+          </div>
+          <div class="textContainer container-fluid">
+            <div class="row">
+              <div class="col-xl-10">
+                <h2>Try It Out!</h2>
+                <ul>
+                  <li>Ask for the user's age and print out how old the user will be in 5 years.</li>
+                  <li>Input a number and add 3, multiply by 2 and subtract 7. Then print the result.</li>
+                </ul>
+                <h2>Related Problems</h2>
+                <ul>
+                  <li><a href="http://wcipeg.com" target="_blank">wcipeg.com</a></li>
+                  <li><a href="http://dmoj.ca" target="_blank">dmoj.ca</a></li>                 <!--Change Every Week (end)-->
+                </ul>
+              </div>
+            </div>
+          </div> <!-- /container -->
+      </div>
+      <div class="col" id="lessonBar">
+            <h3>Discussion</h3>
+            <p>Chat will be added later on!</p>
+        </div>
+    </div>
+      </div>
+    </main>
+    <footer class="container copyright">
+      <p>&copy; Aaron Zhang 2018</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

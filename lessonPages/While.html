@@ -29,9 +29,9 @@
           <li class="nav-item dropdown button">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#" target="_blank">Printing and Variables</a>
+                <a class="dropdown-item" href="Printing.html" target="_blank">Printing and Variables</a>
                 <a class="dropdown-item" href="If.html" target="_blank">If and Else Statements</a>
-                <a class="dropdown-item" href="While.html" target="_blank">While Loops</a>
+                <a class="dropdown-item" href="#" target="_blank">While Loops</a>
                 <a class="dropdown-item" href="For.html" target="_blank">For Loops</a>
                 <a class="dropdown-item" href="Lists.html" target="_blank">Lists</a>
                 <a class="dropdown-item more" href="../lessons.html" target="_blank">See All &raquo;</a>
@@ -62,25 +62,23 @@
               <div class="textContainer container-fluid">
                 <div class="row">
                   <div class="col lesson" id="recent">
-                    <h2>If and Else Statements</h2>
-                    <p>In this lesson, we will go over the functions of if and else statements. These statements help the computer make decisions within the program. <strong>Using an if statement will create a condition where if the condition is met, the following indented code will run. When comparing two objects, such as variables, a double equals sign is used ("==")</strong>. This is important as using only one equal sign assigns the second value to the first variable, rather than comparing the two. 
-                    <img src="../images/if.png" class="code">
-                    You can have as many if statements as you want, but nothing will happen if none of the conditions are met. That is where an else statement is used. <strong>An else statement must come after at least one if statement and runs if none of the conditions directly above are met</strong>. 
-                    <img src="../images/else.png" class="code">
-                    There are also a combination of the two - elif (else if) statements. This acts as a regular if statement, however, if any if or elif conditions are met, this code doesn't run even if its condition is met.</p>
-                    <img src="../images/elif.png" class="code">
+                    <h2>While Loops</h2>
+                    <p>
+                      So far, your entire code runs only once, from top to bottom. This lesson will be on while loops, one of the most simple loops in programming. In a while loop, there is no condition that needs to be met to run. Instead, <strong>the code in the while loop will continuously loop until the condition is no longer met</strong>.
+                      <img src="../images/while.png" class="code">
+                    </p>
                   </div>
                   <div class="col-xl-5" id="explanation">
                     <h2>More Details</h2>
-                    <p>For each if or elif statement, there can be more than one condition set. This can be done using <strong>"or"</strong> or <strong>"and"</strong> inbetween conditions. The <strong>"or" creates a situation where if either of the conditions are met, the code beneath runs</strong>. On the other hand, <strong>"and" requires all the conditions mentioned to be met to run</strong>.
-                    <img src="../images/or_and.png" class="code"></p>
-                    <p>Another way to compare two variables other than if one is equal to another, is to check if one <em>does not</em> equal to something. This is done using the and exclamation and an equal sign ("!=")
-                    <img src="../images/not_equal.png" class="code"></p>
+                    <p>
+                      Within a while loop, you can also exit the loop with the break function. <strong>A break immediately "breaks" out of the loop</strong>, as the name suggests. This is usually used along with an if statement.
+                      <img src="../images/break.png" class="code">
+                    </p>
                   </div>
                 </div>
                 <div class="next-previous">
-                  <a class="btn btn-secondary" href="Printing.html" role="button">&laquo; Previous Lesson</a>
-                  <a class="btn btn-secondary nextButton" href="While.html" role="button">Next Lesson &raquo;</a>  
+                  <a class="btn btn-secondary" href="If.html" role="button">&laquo; Previous Lesson</a>
+                  <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>  
               </div>
               </div>
               <div class="textContainer container-fluid">
@@ -88,8 +86,8 @@
                   <div class="col-xl-10">
                     <h2>Try It Out!</h2>
                     <ul>
-                      <li>Ask for the users age and if they are over 10 say that they can watch the movie, otherwise tell them they are not allowed to. <a href="#">Submit &raquo;</a></li>
-                      <li>Input a number, print whether the number is "even" or "odd", but if the number is less than zero, only print out "negative". <a href="#">Submit &raquo;</a></li>
+                      <li>Continuously ask the user to enter a number, printing the sum of that number plus the previous sum (assume 0 for the first sum). Print "Banana" and end the program when "0" is entered. <a href="#">Submit &raquo;</a></li>
+                      <li>Ask the user for a number, if the number can be divided by 3 (without remainder or decimal), print the number divided by three. Otherwise, exit the program. <a href="#">Submit &raquo;</a></li>
                     </ul>
                     <h2>Related Problems</h2>
                     <ul>

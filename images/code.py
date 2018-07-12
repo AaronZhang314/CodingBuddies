@@ -1,10 +1,10 @@
 
 
-number = 2
+age = input()
 
-if number == 1:
-    print "number is equal to 1"
-
-
-else:
-    print "number is not equal to 1"
+while True:
+    print "You are not 100!"
+    age = input()
+    if age == 100:
+        print "You are 100!"
+        break

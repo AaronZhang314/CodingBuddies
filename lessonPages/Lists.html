@@ -63,34 +63,32 @@
           <div class="textContainer container-fluid shadow">
             <div class="row">
               <div class="col lesson" id="recent">
-                <h2>Printing, Variables and Input</h2>
+                <h2>Lists</h2>
                 <p>
-                  Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. Variables can be changed by assigning them with new values or adding onto the existing value.
-                  <img src="../images/printing.png" class="code">
-                  Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.
-                <ul>
-                  <li>raw_input("Optional text") - can take in any type of input and treats them as plain text (strings)</li>
-                  <li>input("Optional text") - can take in only numbers, and unlike raw_inputs, can perform <a href="Math.html" target="_blank">math equations</a> with them</li>
-                </ul>
-                <img src="../images/input.png" class="code">
+                  Let's say that you wanted to input and store a bunch of numbers. Making individual variables would be a very annoying process. In that case a list can be used instead. <strong>Lists can hold a bunch of values of the same or different type in Python and can be shown with square brackets ("[]")</strong>. 
+                  <img src="../images/list.png" class="code">
+                  You can print out an entire list using <strong>print listName</strong> for example, but you can also print a specific index, for example the second item in the list. This can be done using print <strong>listName[(index number)]</strong>. Though you might try list[2] to access the second index, but you will see that it actually goes out the third item. This is because <strong>computers count starting from 0. So instead of the indexes being 1, 2, 3... it is 0, 1, 2...</strong>
+                <img src="../images/index.png" class="code">
+                  Once a list is created, you can still add more to the list using the append function. To do so you type <strong>listName.append(item), which adds the new item to the back of the list</strong>. 
+                <img src="../images/append.png" class="code">
               </p>
               </div>
               <div class="col-xl-5" id="explanation">
                 <h2>More Details</h2>
-                <p>The main variables that are often used are strings, integers, doubles, characters, boolean.
-                <ul>
-                  <li><strong>Strings</strong> - contain letters, words or even sentences.</li>
-                  <li><strong>Integers</strong> - contain any whole number (including negative numbers)</li>
-                  <li><strong>Doubles</strong> - contain decimal numbers</li>
-                  <li><strong>Characters</strong> - contain any single character or symbol</li>
-                  <li><strong>Boolean</strong> - are either true or false</li>
-                </ul>
-              </p>
+                <p>If you have a list of numbers, you can sort them in both increasing or decreasing order. This can be done using the sort function <strong>list.sort()</strong>.
+                <img src="../images/sort.png" class="code">  
+                Another way of adding into a list is to insert the item at a specific index using the insert function - <strong>list.insert(index, item)</strong>.
+                <img src="../images/insert.png" class="code">
+                You can get the number of items in a list with <strong>"len(list)"</strong>
+                <img src="../images/len.png" class="code">
+                Removing an item from a list can be done with <strong>list.pop(index)</strong> which removes a specific index mentioned or <strong>list.remove(item)</strong> which removes the item with that value.
+                <img src="../images/remove.png" class="code">
+                </p>
               </div>
             </div>
             <div class="next-previous">
-              <a class="btn btn-secondary" href="#" role="button">&laquo; Previous Lesson</a>  
-              <a class="btn btn-secondary nextButton" href="Math.html" role="button">Next Lesson &raquo;</a>  
+              <a class="btn btn-secondary" href="While.html" role="button">&laquo; Previous Lesson</a>  
+              <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>  
           </div>
           </div>
           <div class="textContainer container-fluid shadow">
@@ -98,8 +96,8 @@
               <div class="col-xl-10">
                 <h2>Try It Out!</h2>
                 <ul>
-                  <li>Ask for the user's name, then print it. <a href="#">Submit &raquo;</a></li>
-                  <li>Ask for a color and a number, print the number and then print the color. <a href="#">Submit &raquo;</a></li>
+                  <li>Have the user enter words, adding them to a list and print "stop" if "x" is entered. Then print the first and last element in the list. <a href="#">Submit &raquo;</a></li>
+                  <li>Ask the user for a number, then ask for that many inputs to add to a list. Then print them all out. <a href="#">Submit &raquo;</a></li>
                 </ul>
                 <h2>Related Problems</h2>
                 <ul>

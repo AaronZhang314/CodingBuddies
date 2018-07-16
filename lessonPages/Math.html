@@ -29,8 +29,8 @@
           <li class="nav-item dropdown button">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#" target="_blank">Printing and Variables</a>
-                <a class="dropdown-item" href="Math.html" target="_blank">Math Operations</a>
+                <a class="dropdown-item" href="Printing.html" target="_blank">Printing and Variables</a>
+                <a class="dropdown-item" href="#" target="_blank">Math Operations</a>
                 <a class="dropdown-item" href="If.html" target="_blank">If and Else Statements</a>
                 <a class="dropdown-item" href="While.html" target="_blank">While Loops</a>
                 <a class="dropdown-item" href="Lists.html" target="_blank">Lists</a>
@@ -57,61 +57,52 @@
     </nav>
 
     <main>
-     <div class="container-fluid">
-        <div class="row">
-        <div class="col-lg-9">
-          <div class="textContainer container-fluid shadow">
+         <div class="container-fluid">
             <div class="row">
-              <div class="col lesson" id="recent">
-                <h2>Printing, Variables and Input</h2>
-                <p>
-                  Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. Variables can be changed by assigning them with new values or adding onto the existing value.
-                  <img src="../images/printing.png" class="code">
-                  Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.
-                <ul>
-                  <li>raw_input("Optional text") - can take in any type of input and treats them as plain text (strings)</li>
-                  <li>input("Optional text") - can take in only numbers, and unlike raw_inputs, can perform <a href="Math.html" target="_blank">math equations</a> with them</li>
-                </ul>
-                <img src="../images/input.png" class="code">
-              </p>
+            <div class="col-lg-9">
+              <div class="textContainer container-fluid shadow">
+                <div class="row">
+                  <div class="col lesson" id="recent">
+                    <h2>Math Operations</h2>
+                    <p>
+                      In the last lesson, you learned about different variable types, including numbers. <strong>Numbers can then be operated on, for example, with the basic operations, addition (+), subtraction (-), multiplication (*), division (/)</strong>. Anything with quotations around are considered a string, therefore 10 can be operated on, while "10" can not. 
+                      <img src="../images/math.png" class="code">
+                      <img src="../images/add.png" class="code">
+                    </p>
+                  </div>
+                  <div class="col-xl-5" id="explanation">
+                    <h2>More Details</h2>
+                    <p>
+                      Modulo (%) is another commonly used operation in programming. <strong>Modulo is the remainder after dividing two integers</strong>. For example, 17 divided by 5 is 3, remainder 2, so 17 modulus 5 equals 2.  
+                      <img src="../images/modulos.png" class="code">
+                      This is a common way to determine whether a number is <strong>even</strong> or <strong>odd</strong>, as any odd number modulus 2 will result in 1 and any even number modulus 2 will result in 0.
+                    </p>
+                  </div>
+                </div>
+                <div class="next-previous"> 
+                  <a class="btn btn-secondary" href="Printing.html" role="button">&laquo; Previous Lesson</a>
+                  <a class="btn btn-secondary nextButton" href="If.html" role="button">Next Lesson &raquo;</a>  
               </div>
-              <div class="col-xl-5" id="explanation">
-                <h2>More Details</h2>
-                <p>The main variables that are often used are strings, integers, doubles, characters, boolean.
-                <ul>
-                  <li><strong>Strings</strong> - contain letters, words or even sentences.</li>
-                  <li><strong>Integers</strong> - contain any whole number (including negative numbers)</li>
-                  <li><strong>Doubles</strong> - contain decimal numbers</li>
-                  <li><strong>Characters</strong> - contain any single character or symbol</li>
-                  <li><strong>Boolean</strong> - are either true or false</li>
-                </ul>
-              </p>
               </div>
-            </div>
-            <div class="next-previous">
-              <a class="btn btn-secondary" href="#" role="button">&laquo; Previous Lesson</a>  
-              <a class="btn btn-secondary nextButton" href="Math.html" role="button">Next Lesson &raquo;</a>  
+              <div class="textContainer container-fluid shadow">
+                <div class="row">
+                  <div class="col-xl-10">
+                    <h2>Try It Out!</h2>
+                    <ul>
+                      <li>Input a number and add 3, multiply by 2 and subtract 7. Then print the result. <a href="#">Submit &raquo;</a></li>
+                      <li>Take in a number and add 9, then print out the remainder when divided by 3. <a href="#">Submit &raquo;</a></li>
+                    </ul>
+                    <h2>Related Problems</h2>
+                    <ul>
+                      <li><a href="http://wcipeg.com" target="_blank">wcipeg.com</a></li>
+                      <li><a href="http://dmoj.ca" target="_blank">dmoj.ca</a></li>                 <!--Change Every Week (end)-->
+                    </ul>
+                  </div>
+                </div>
+              </div> <!-- /container -->
           </div>
-          </div>
-          <div class="textContainer container-fluid shadow">
-            <div class="row">
-              <div class="col-xl-10">
-                <h2>Try It Out!</h2>
-                <ul>
-                  <li>Ask for the user's name, then print it. <a href="#">Submit &raquo;</a></li>
-                  <li>Ask for a color and a number, print the number and then print the color. <a href="#">Submit &raquo;</a></li>
-                </ul>
-                <h2>Related Problems</h2>
-                <ul>
-                  <li><a href="http://wcipeg.com" target="_blank">wcipeg.com</a></li>
-                  <li><a href="http://dmoj.ca" target="_blank">dmoj.ca</a></li>                 <!--Change Every Week (end)-->
-                </ul>
-              </div>
-            </div>
-          </div> <!-- /container -->
-      </div>
-      <div class="col" id="lessonBar">
-        <table class="table">
+          <div class="col" id="lessonBar">
+            <table class="table">
               <thead>
                 <tr class="tHead">
                  <th>Leaderboards</th>
@@ -135,11 +126,13 @@
                 </tr>
               </tbody>
             </table>
-            <h3>Discussion</h3>
-            <p>Chat will be added later on!</p>
+          <h3>Discussion</h3>
+          <p>Chat will be added later on!</p>
         </div>
-    </div>
       </div>
+    </div>
+
+
     </main>
     <footer class="container copyright">
       <p>&copy; Aaron Zhang 2018</p>

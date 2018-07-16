@@ -31,10 +31,11 @@
             	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
 	            <div class="dropdown-menu">
 	                <a class="dropdown-item" href="lessonPages/Printing.html" target="_blank">Printing and Variables</a>
+	                <a class="dropdown-item" href="lessonPages/Math.html" target="_blank">Math Operations</a>
 	                <a class="dropdown-item" href="lessonPages/If.html" target="_blank">If and Else Statements</a>
 	                <a class="dropdown-item" href="lessonPages/While.html" target="_blank">While Loops</a>
-	                <a class="dropdown-item" href="lessonPages/For.html" target="_blank">For Loops</a>
 	                <a class="dropdown-item" href="lessonPages/Lists.html" target="_blank">Lists</a>
+                	<a class="dropdown-item" href="lessonPages/For.html" target="_blank">For Loops</a>
 	                <a class="dropdown-item more" href="../lessons.html" target="_blank">See All &raquo;</a>
 	            </div>
           	</li>
@@ -70,48 +71,45 @@
       <div class="container-fluid">
       	<div class="row">
 		  	<div class="col-lg-9">
-		      <div class="textContainer container-fluid">
+		      <div class="textContainer container-fluid shadow">
 		        <div class="row">
 		          <div class="col lesson" id="recent">
 		            <h2>Most Recent Lesson <h4>- Printing, Variables and Input</h4></h2>
-		            <p>Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. Variables can be changed by assigning them with new values or adding onto the existing value.</p>
+		            <p>Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. Variables can be changed by assigning them with new values or adding onto the existing value.
 		            <img src="images/printing.png" class="code">
-		            <p>Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.</p>
+		            Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.
 		            <ul>
 		            	<li>raw_input("Optional text") - can take in any type of input, from sentences to numbers</li>
 		            	<li>input("Optional text") - can take in only numbers, and unlike raw_inputs, can perform math equations with them</li>
 		            </ul>
 		            <img src="images/input.png" class="code">
+		        	</p>
 		          </div>
 		          <div class="col-xl-5" id="explanation">
 		            <h2>More Details</h2>
-		            <p>The main variables that are often used are strings, integers, doubles, characters, boolean.</p>
+		            <p>The main variables that are often used are strings, integers, doubles, characters, boolean.
 		            <ul>
 						<li><strong>Strings</strong> - contain letters, words or even sentences.</li>
 						<li><strong>Integers</strong> - contain any whole number (including negative numbers)</li>
 						<li><strong>Doubles</strong> - contain decimal numbers</li>
 						<li><strong>Characters</strong> - contain any single character or symbol</li>
 						<li><strong>Boolean</strong> - are either true or false</li>
-					</ul>
-					<p>
-					The main mathematical operations are addition (+), subtraction (-), multiplication (*), division (/) and modulos (%).
-
-					*insert modulos definition
+					</ul>	
 					</p>
 		          </div>
 		        </div>
 		        <div class="next-previous">
 			        <a class="btn btn-secondary" href="#" role="button">&laquo; Previous Lesson</a>
-			        <a class="btn btn-secondary nextButton" href="lessonPages/If.html" role="button">Next Lesson &raquo;</a>	
+			        <a class="btn btn-secondary nextButton" href="lessonPages/Math.html" role="button">Next Lesson &raquo;</a>	
 		    	</div>
 		      </div>
-		      <div class="textContainer container-fluid">
+		      <div class="textContainer container-fluid shadow">
 		      	<div class="row">
 			      	<div class="col-xl-10">
 			      		<h2>Try It Out!</h2>
 			      		<ul>
-			      			<li>Ask for the user's age and print out how old the user will be in 5 years. <a href="#">Submit &raquo;</a></li>
-			      			<li>Input a number and add 3, multiply by 2 and subtract 7. Then print the result. <a href="#">Submit &raquo;</a></li>
+			      			<li>Ask for the user's name, then print it. <a href="#">Submit &raquo;</a></li>
+			      			<li>Ask for a color and a number, print the number and then print the color. <a href="#">Submit &raquo;</a></li>
 			      		</ul>
 			      		<h2>Related Problems</h2>
 			      		<ul>
@@ -123,7 +121,7 @@
 		      </div> <!-- /container -->
 		  </div>
 		  <div class="col" id="lessonBar">
-		  	<table class="table">
+		  	<table class="table" id="leaderboard">
               <thead>
                 <tr class="tHead">
                  <th>Leaderboards</th>

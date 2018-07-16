@@ -4,9 +4,17 @@ add to contact page and about page
 
 add individual lessons
 
-move lessons to navbar view more to link to main lessons page
+make code pictures transparent and slightly shaded?
 
-modulos and += lesson in printing
+add what the code does beneath the pictures
+
+maybe add a while True in details of while lesson
+
+add list insert, size, delete and list sorting in list details
+
+add link to python references
+
+strong in math and list
 
 ******************Advanced
 

@@ -1,20 +1,22 @@
 *****************What to add
 
+add what the code does beneath the pictures (dropdown or collapse)
+
 add to contact page and about page
 
 add individual lessons
 
 make code pictures transparent and slightly shaded?
 
-add what the code does beneath the pictures
-
-maybe add a while True in details of while lesson
-
-add list insert, size, delete and list sorting in list details
-
 add link to python references
 
-strong in math and list
+make leaderboards page
+
+make login/register page
+
+make profile page
+
+dropdown activates on hover
 
 ******************Advanced
 
@@ -28,6 +30,7 @@ create an online judge for the test questions
 ******************What to update after each week
 
 most recent lesson (front page)
+	- next and previous buttons
 
 
 ******************What to update when adding new lesson
@@ -37,3 +40,5 @@ add in lessons under navbar
 add in lessons page
 
 add links to related problems 
+
+next and previous buttons

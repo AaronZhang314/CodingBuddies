@@ -26,7 +26,7 @@
           <li class="nav-item button">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-          <li class="nav-item dropdown button">
+          <li class="nav-item dropdown button active">
               <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="lessonPages/Printing.html" target="_blank">Printing and Variables</a>
@@ -57,37 +57,64 @@
     </nav>
 
     <main role="main">
-      <div class="lessonPadding">
-        <div class="container textContainer lessonTable shadow">
+      <div class="container-fluid">
+        <div class="lessonPadding row">
+          <div class="container-fluid textContainer lessonTable shadow col-lg-8">
+            <table class="table">
+              <thead>
+                <tr class="tHead">
+                  <th>Lessons</th>
+                </tr>
+              </thead>
+              <tbody class="tBody">
+                <tr>
+                  <td><a href="lessonPages/Printing.html">Lesson 1 - Printing, Variables and Input</a></td>
+                </tr>
+                <tr>
+                  <td><a href="lessonPages/Math.html">Lesson 2 - Math Operations</a></td>
+                </tr>
+                <tr>
+                  <td><a href="lessonPages/If.html">Lesson 3 - If and Else Statements</a></td>
+                </tr>
+                <tr>
+                  <td><a href="lessonPages/While.html">Lesson 4 - While Loops</a></td> 
+                </tr>
+                <tr>  
+                  <td><a href="lessonPages/Lists.html">Lesson 5 - Lists</a></td>
+                </tr>
+                <tr>  
+                  <td><a href="#">Lesson 6 - For Loops</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col" id="lessonBar">
           <table class="table">
-            <thead>
-              <tr class="tHead">
-                <th>Lessons</th>
-              </tr>
-            </thead>
-            <tbody class="tBody">
-              <tr>
-                <td><a href="lessonPages/Printing.html">Lesson 1 - Printing, Variables and Input</a></td>
-              </tr>
-              <tr>
-                <td><a href="lessonPages/Math.html">Lesson 2 - Math Operations</a></td>
-              </tr>
-              <tr>
-                <td><a href="lessonPages/If.html">Lesson 3 - If and Else Statements</a></td>
-              </tr>
-              <tr>
-                <td><a href="lessonPages/While.html">Lesson 4 - While Loops</a></td> 
-              </tr>
-              <tr>  
-                <td><a href="lessonPages/Lists.html">Lesson 5 - Lists</a></td>
-              </tr>
-              <tr>  
-                <td><a href="#">Lesson 6 - For Loops</a></td>
-              </tr>
-            </tbody>
-          </table>
+                <thead>
+                  <tr class="tHead">
+                   <th>Leaderboards</th>
+                  </tr>
+                </thead>
+                <tbody class="tBody">
+                  <tr>
+                    <td><a href="#">1st - Arano (Makerguy)</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">2nd - Morgoth (Weeb)</a></td>
+                  </tr>
+                  <tr>
+                    <td><a href="#">3rd - kwang (badminton guy)</a></td> 
+                  </tr>
+                  <tr>  
+                    <td><a href="#">4th - notericgu (not eric gu)</a></td>
+                  </tr>
+                  <tr>
+                    <td class="seeAll"><a href="#">See All &raquo;</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
         </div>
-
       </div> <!-- /container -->
 
     </main>

@@ -6,6 +6,8 @@ a:hover{
 body {
   padding-top: 45px;
   background-color: #F0EEEE;
+  background-image: url(../images/background.jpg);
+  background-size: cover;		
 }
 
 
@@ -43,6 +45,7 @@ body {
     border: solid #6c757d;
     border-width: 1.5px;
     border-radius: 10px;
+    background-color: white;
 }
 
 .copyright{
@@ -129,7 +132,7 @@ body {
 }
 
 .textContainer{
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.85);
 	border-radius:15px;
 	margin-bottom:25px;
 }
@@ -158,7 +161,6 @@ body {
 	position: absolute;
 	left: 50%;
     transform: translate(-50%, 0);
-	z-index: 1;
 }
 
 .typeWriter{
@@ -178,5 +180,17 @@ body {
 	    overflow: hidden;
 	    -webkit-animation: typing 2s steps(23, end),
 	               blink .5s step-end infinite alternate;
+	}
+}
+
+@media(max-width: 768px){
+	.parallax{
+		min-height:500px;
+	}
+}
+
+@media(max-width: 992px){
+	.welcome{
+		margin-top:50px;
 	}
 }

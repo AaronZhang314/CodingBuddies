@@ -2,13 +2,11 @@
 
 add what the code does beneath the pictures (dropdown or collapse)
 
+add zoom in to code pictures
+
 add to contact page and about page
 
 add individual lessons
-
-make code pictures transparent and slightly shaded?
-
-add link to python references
 
 make leaderboards page
 

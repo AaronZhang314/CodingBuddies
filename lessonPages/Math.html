@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font/css/all.css">
   </head>
 
   <body>
@@ -67,21 +68,45 @@
                     <h2>Math Operations</h2>
                     <p>
                       In the last lesson, you learned about different variable types, including numbers. <strong>Numbers can then be operated on, for example, with the basic operations, addition (+), subtraction (-), multiplication (*), division (/)</strong>. Anything with quotations around are considered a string, therefore 10 can be operated on, while "10" can not. 
-                      <img src="../images/math.png" class="code">
-                      <img src="../images/add.png" class="code">
+                      <div class="imageZoom">
+                        <img src="../images/math.png" class="code myImg">
+                        <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                        <div class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content img01" id="img01">
+                          <div id="caption"></div>
+                        </div>
+                      </div>
+                      <div class="imageZoom">
+                        <img src="../images/add.png" class="code myImg">
+                        <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                        <div class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content img01" id="img01">
+                          <div id="caption"></div>
+                        </div>
+                      </div>
                     </p>
                   </div>
                   <div class="col-xl-5" id="explanation">
                     <h2>More Details</h2>
                     <p>
                       Modulo (%) is another commonly used operation in programming. <strong>Modulo is the remainder after dividing two integers</strong>. For example, 17 divided by 5 is 3, remainder 2, so 17 modulus 5 equals 2.  
-                      <img src="../images/modulos.png" class="code">
+                      <div class="imageZoom">
+                        <img src="../images/modulos.png" class="code myImg">
+                        <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                        <div class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content img01" id="img01">
+                          <div id="caption"></div>
+                        </div>
+                      </div>
                       This is a common way to determine whether a number is <strong>even</strong> or <strong>odd</strong>, as any odd number modulus 2 will result in 1 and any even number modulus 2 will result in 0.
                     </p>
                   </div>
                 </div>
                 <div class="next-previous"> 
-                  <a class="btn btn-secondary" href="Printing.html" role="button">&laquo; Previous Lesson</a>
+                  <a class="btn btn-secondary prevButton" href="Printing.html" role="button">&laquo; Previous Lesson</a>
                   <a class="btn btn-secondary nextButton" href="If.html" role="button">Next Lesson &raquo;</a>  
               </div>
               </div>
@@ -145,5 +170,6 @@
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/modal.js"></script>
   </body>
 </html>

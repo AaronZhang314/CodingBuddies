@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font/css/all.css">
   </head>
 
   <body>
@@ -67,28 +68,84 @@
                 <h2>Lists</h2>
                 <p>
                   Let's say that you wanted to input and store a bunch of numbers. Making individual variables would be a very annoying process. In that case, a list can be used instead. <strong>Lists can hold a bunch of values of the same or different type in Python and can be shown with square brackets ("[]")</strong>. 
-                  <img src="../images/list.png" class="code">
+                  <div class="imageZoom">
+                    <img src="../images/list.png" class="code myImg">
+                    <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                    <div class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content img01" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                  </div>
                   You can print out an entire list using <strong>print listName</strong> for example, but you can also print a specific index, for example the second item in the list. This can be done using print <strong>listName[(index number)]</strong>. Though you might try list[2] to access the second index, but you will see that it actually goes out the third item. This is because <strong>computers count starting from 0. So instead of the indexes being 1, 2, 3... it is 0, 1, 2...</strong>
-                <img src="../images/index.png" class="code">
+                  <div class="imageZoom">
+                    <img src="../images/index.png" class="code myImg">
+                    <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                    <div class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content img01" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                  </div>
                   Once a list is created, you can still add more to the list using the append function. To do so you type <strong>listName.append(item), which adds the new item to the back of the list</strong>. 
-                <img src="../images/append.png" class="code">
+                  <div class="imageZoom">
+                    <img src="../images/append.png" class="code myImg">
+                    <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                    <div class="modal">
+                      <span class="close">&times;</span>
+                      <img class="modal-content img01" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                  </div>
               </p>
               </div>
               <div class="col-xl-5" id="explanation">
                 <h2>More Details</h2>
                 <p>If you have a list of numbers, you can sort them in both increasing or decreasing order. This can be done using the sort function <strong>list.sort()</strong>.
-                <img src="../images/sort.png" class="code">  
+                <div class="imageZoom">
+                  <img src="../images/sort.png" class="code myImg">  
+                  <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                  <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content img01" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
                 Another way of adding into a list is to insert the item at a specific index using the insert function - <strong>list.insert(index, item)</strong>.
-                <img src="../images/insert.png" class="code">
+                <div class="imageZoom">
+                  <img src="../images/insert.png" class="code myImg">
+                  <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                  <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content img01" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
                 You can get the number of items in a list with <strong>"len(list)"</strong>
-                <img src="../images/len.png" class="code">
+                <div class="imageZoom">
+                  <img src="../images/len.png" class="code myImg">
+                  <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                  <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content img01" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
                 Removing an item from a list can be done with <strong>list.pop(index)</strong> which removes a specific index mentioned or <strong>list.remove(item)</strong> which removes the item with that value.
-                <img src="../images/remove.png" class="code">
+                <div class="imageZoom">
+                  <img src="../images/remove.png" class="code myImg">
+                  <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                  <div class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content img01" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
                 </p>
               </div>
             </div>
             <div class="next-previous">
-              <a class="btn btn-secondary" href="While.html" role="button">&laquo; Previous Lesson</a>  
+              <a class="btn btn-secondary prevButton" href="While.html" role="button">&laquo; Previous Lesson</a>  
               <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>  
           </div>
           </div>
@@ -150,5 +207,6 @@
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/modal.js"></script>
   </body>
 </html>

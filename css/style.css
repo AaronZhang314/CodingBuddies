@@ -12,9 +12,13 @@ body {
 
 
 .bground{
-	background-color: rgba(133, 173, 173, 0.75);
+	background-color: rgba(0, 0, 0, 0.7);
 	border: solid white;
 	border-width: 2px;
+}
+
+.bottom-padding{
+	padding-bottom: 35px;
 }
 
 .button{
@@ -44,7 +48,7 @@ body {
     width: 100%;
     border: solid #6c757d;
     border-width: 1.5px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: white;
 }
 
@@ -52,8 +56,27 @@ body {
 	text-align:center;
 }
 
+.imageZoom{
+	position: relative;
+  	width: 100%;
+}
+
+
+.imageZoom .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(85,85,85, 0.75);
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 .learnHeader{
-	color: rgb(55,55,55);
+	color: #bababa;
 }
 
 .lessonPadding{
@@ -100,10 +123,17 @@ body {
 
 .nextButton{
 	float:right;
+	background-color: #4CAF50;
+    color: white;
 }
 
 .next-previous{
 	padding:20px;
+}
+
+.prevButton{
+	background-color: #f1f1f1;
+    color: black;
 }
 
 .row{
@@ -173,7 +203,7 @@ body {
 
 @media(min-width:1000px){
 	.typeWriter { 
-	    border-right: .075em solid black; 
+	    border-right: .075em solid white; 
 	    margin: 0 auto;
 	    width: 23ch;
 	    white-space: nowrap;
@@ -193,4 +223,81 @@ body {
 	.welcome{
 		margin-top:50px;
 	}
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5000; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
 }

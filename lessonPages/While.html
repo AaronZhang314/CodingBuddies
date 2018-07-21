@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font/css/all.css">
   </head>
 
   <body>
@@ -67,19 +68,35 @@
                     <h2>While Loops</h2>
                     <p>
                       So far, your entire code runs only once, from top to bottom. This lesson will be on while loops, one of the most simple loops in programming. In a while loop, there is no condition that needs to be met to run. Instead, <strong>the code in the while loop will continuously loop until the condition is no longer met</strong>.
-                      <img src="../images/while.png" class="code">
+                      <div class="imageZoom">
+                        <img src="../images/while.png" class="code myImg">
+                        <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                        <div class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content img01" id="img01">
+                          <div id="caption"></div>
+                      </div>
+                      </div>
                     </p>
                   </div>
                   <div class="col-xl-5" id="explanation">
                     <h2>More Details</h2>
                     <p>
                       Within a while loop, you can also exit the loop with the <strong>"break"</strong> function. <strong>A break immediately "breaks" out of the loop</strong>, as the name suggests. This is usually used along with an if statement.
-                      <img src="../images/break.png" class="code">
+                      <div class="imageZoom">
+                        <img src="../images/break.png" class="code myImg">
+                        <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                        <div class="modal">
+                          <span class="close">&times;</span>
+                          <img class="modal-content img01" id="img01">
+                          <div id="caption"></div>
+                      </div>
+                      </div>
                     </p>
                   </div>
                 </div>
                 <div class="next-previous">
-                  <a class="btn btn-secondary" href="If.html" role="button">&laquo; Previous Lesson</a>
+                  <a class="btn btn-secondary prevButton" href="If.html" role="button">&laquo; Previous Lesson</a>
                   <a class="btn btn-secondary nextButton" href="Lists.html" role="button">Next Lesson &raquo;</a>  
               </div>
               </div>
@@ -143,5 +160,6 @@
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/modal.js"></script>
   </body>
 </html>

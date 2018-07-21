@@ -12,6 +12,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font/css/all.css">
   </head>
 
   <body>
@@ -61,19 +62,35 @@
      <div class="container-fluid">
         <div class="row">
         <div class="col-lg-9">
-          <div class="textContainer container-fluid shadow">
+          <div class="textContainer container-fluid shadow bottom-padding">
             <div class="row">
               <div class="col lesson" id="recent">
                 <h2>Printing, Variables and Input</h2>
                 <p>
                   Welcome to your first lesson! In this lesson you will be learning the basics of input and output. The print function is primarily used in displaying text onto the console. Typing <strong>print "sample text"</strong> will display the text written in the parenthesis onto the screen. You can also print the value of variables by typing <strong>print variableName</strong>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even lists. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. Variables can be changed by assigning them with new values or adding onto the existing value.
-                  <img src="../images/printing.png" class="code">
+                  <div class="imageZoom">
+                    <img src="../images/printing.PNG" class="code myImg">
+                    <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                    <div class="modal">
+                       <span class="close">&times;</span>
+                       <img class="modal-content img01" id="img01">
+                      <div id="caption"></div>
+                    </div>
+                  </div>
                   Another crucial part in a program is the ability to have input from the user. The two main types of input in Python are raw inputs - <strong>raw_input()</strong> and input - <strong>input()</strong>.
                 <ul>
                   <li>raw_input("Optional text") - can take in any type of input and treats them as plain text (strings)</li>
                   <li>input("Optional text") - can take in only numbers, and unlike raw_inputs, can perform <a href="Math.html" target="_blank">math equations</a> with them</li>
                 </ul>
-                <img src="../images/input.png" class="code">
+                <div class="imageZoom">
+                  <img src="../images/input.PNG" class="code myImg">
+                  <button class="btn expand"><i class="fas fa-search-plus"></i></button>
+                  <div class="modal">
+                    <span class="close">&times;</span>
+                     <img class="modal-content img01" id="img01">
+                     <div id="caption"></div>
+                  </div>
+                </div>
               </p>
               </div>
               <div class="col-xl-5" id="explanation">
@@ -90,7 +107,6 @@
               </div>
             </div>
             <div class="next-previous">
-              <a class="btn btn-secondary" href="#" role="button">&laquo; Previous Lesson</a>  
               <a class="btn btn-secondary nextButton" href="Math.html" role="button">Next Lesson &raquo;</a>  
           </div>
           </div>
@@ -152,5 +168,6 @@
     <script src="../js/jquery-3.3.1.slim.min.js"></script>
     <script src="../js/popper.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/modal.js"></script>
   </body>
 </html>

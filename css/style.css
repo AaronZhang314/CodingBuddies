@@ -10,6 +10,12 @@ body {
   background-size: cover;		
 }
 
+code{
+	background-color: #f9efef;
+	font-weight: normal;
+	border-radius: 3px;
+}
+
 
 .bground{
 	background-color: rgba(0, 0, 0, 0.7);
@@ -46,7 +52,10 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     width: 100%;
-    border: solid #6c757d;
+}
+
+.codeBorder{
+	border: solid #6c757d;
     border-width: 1.5px;
     border-radius: 5px;
     background-color: white;
@@ -129,6 +138,10 @@ body {
 
 .next-previous{
 	padding:20px;
+}
+
+.output{
+	display: none;
 }
 
 .prevButton{

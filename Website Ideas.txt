@@ -1,8 +1,8 @@
 *****************What to add
 
-add what the code does beneath the pictures (dropdown or collapse)
+change replit iframe to side by side code and console
 
-add zoom in to code pictures
+change navbar
 
 add to contact page and about page
 

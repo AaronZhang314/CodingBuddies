@@ -1,12 +1,18 @@
 $(document).ready(function(){
-	outputImage = $(this).siblings(".output");
-	btnText = $(this).siblings(".btnText");
-	if (outputImage.css('display') == 'none'){
-		outputImage.css('display', 'block');
-		btnText.html("Output");
-	}
-	else{
-		outputImage.css('display', 'none');
-		btnText.html("Close");
-	}
+	btnText = $(".showMore");
+
+	btnText.click(function(){
+		moreText = $(this).siblings(".moreText");
+		btnText = $(this);
+		btnText.toggleClass("btn-primary")
+		
+		if (moreText.css('display') == 'none'){
+			moreText.css('display', 'block');
+			btnText.html("Close");
+		}
+		else{
+			moreText.css('display', 'none');
+			btnText.html("Show Code Example");
+		}
+	});
 });

@@ -10,6 +10,11 @@ body {
   background-size: cover;		
 }
 
+br{
+	display: inline-block;
+    width: 100%;
+}
+
 code{
 	background-color: #f9efef;
 	font-weight: normal;

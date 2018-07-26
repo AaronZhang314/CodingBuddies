@@ -63,10 +63,6 @@ code{
     background-color: white;
 }
 
-.copyright{
-	text-align:center;
-}
-
 .imageZoom{
 	position: relative;
   	width: 100%;
@@ -214,3 +210,4 @@ code{
 	left: 50%;
     transform: translate(-50%, 0);
 }
+

@@ -9,9 +9,8 @@ body {
   background-size: cover;		
 }
 
-br{
-	display: inline-block;
-    width: 100%;
+body main{
+	padding-top: 45px;
 }
 
 code{
@@ -19,11 +18,6 @@ code{
 	font-weight: normal;
 	border-radius: 3px;
 }
-
-main{
-	padding-top: 45px;
-}
-
 
 .bground{
 	background-color: rgba(0, 0, 0, 0.7);
@@ -143,14 +137,6 @@ main{
 
 .reveal{
 	text-align: center;
-}
-
-.navbar-nav{
-	padding-left:50px;
-}
-
-.navbar{
-	padding:0px 16px;
 }
 
 .nextButton{

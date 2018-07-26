@@ -12,58 +12,51 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/typewriter.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <link rel="stylesheet" href="css/font/css/all.css">
 
 
   </head>
 
   <body>
+    <div class="originalnavbar fixedTop shadow">
+        <img src="images/logo.png" class="logo" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="35" width="115">
+        <a href="#">Home</a>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <img src="images/logo.png" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="30" width="100">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <div class="drop">
+          <button class="dropbtn">Lessons <i class="fa fa-caret-down"></i></button>
+          <div class="drop-content">
+            <a href="lessonPages/Printing.html">Printing and Variables</a>
+            <a href="lessonPages/Math.html">Math Operations</a>
+            <a href="lessonPages/If.html">If and Else Statements</a>
+            <a href="lessonPages/While.html">While Loops</a>
+            <a href="lessonPages/Lists.html">Lists</a>
+            <a href="lessonPages/For.html">For Loops</a>
+            <a class="more" href="lessons.html">See All &raquo;</a>
+          </div>
+        </div> 
 
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          	<li class="nav-item active button">
-            	<a class="nav-link" href="index.html">Home</a>
-          	</li>
-          	<li class="nav-item dropdown button">
-            	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
-	            <div class="dropdown-menu">
-	                <a class="dropdown-item" href="lessonPages/Printing.html">Printing and Variables</a>
-	                <a class="dropdown-item" href="lessonPages/Math.html">Math Operations</a>
-	                <a class="dropdown-item" href="lessonPages/If.html">If and Else Statements</a>
-	                <a class="dropdown-item" href="lessonPages/While.html">While Loops</a>
-	                <a class="dropdown-item" href="lessonPages/Lists.html">Lists</a>
-                	<a class="dropdown-item" href="lessonPages/For.html">For Loops</a>
-	                <a class="dropdown-item more" href="lessons.html">See All &raquo;</a>
-	            </div>
-          	</li>
+        <div class="drop">
+          <button class="dropbtn">Links <i class="fa fa-caret-down"></i></button>
+          <div class="drop-content">
+            <a href="https://repl.it/repls" target="_blank">Replit</a>
+            <a href="https://wcipeg.com/main" target="_blank">PEG</a>
+            <a href="https://dmoj.ca/" target="_blank">DMOJ</a>
+            <a href="https://docs.python.org/2/reference/index.html" target="_blank">Python Reference</a>
+          </div>
+        </div>
 
-			<li class="nav-item dropdown button">
-            	<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Links</a>
-	            <div class="dropdown-menu">
-	              <a class="dropdown-item" href="https://repl.it/repls" target="_blank">Replit</a>
-	              <a class="dropdown-item" href="https://wcipeg.com/main" target="_blank">PEG</a>
-	              <a class="dropdown-item" href="https://dmoj.ca/" target="_blank">DMOJ</a>
-	              <a class="dropdown-item" href="https://docs.python.org/2/reference/index.html" target="_blank">Python Reference</a>
-	            </div>
-          	</li>
+        <a href="contact.html">Contact</a>
 
-          	<li class="nav-item button">
-            	<a class="nav-link" href="contact.html">Contact</a>
-          	</li>
-            <li class="nav-item button">
-            	<a class="nav-link" href="about.html">About</a>
-            </li>
-        </ul>
-      </div>
-    </nav>
+        <a href="about.html">About</a>
 
-    <main role="main">
+    </div>
+
+
+
+    <main>
         <div class="container welcome bground">
           <h1 class="display-3 typeWriter">Welcome Coding Buddies!</h1>
           <h4 class="learnHeader">Learn the basics of computer programming</h4>
@@ -78,12 +71,12 @@
 		      <div class="textContainer container-fluid shadow">
 		        <div class="row">
 		          <div class="col" id="recent">
-		            <h2>Most Recent Lesson <h4>- Printing, Variables and Input</h4></h2>
+		            <h2>Most Recent Lesson</h2> <h4>- Printing, Variables and Input</h4>
 
 			            <p><em>Welcome to your first lesson!</em><br class=big>In this lesson you will be learning the basics of input and output. The print function is primarily used for outputting text onto the screen. Typing <code>print "sample text"</code> will display the text written in the parenthesis onto the screen. <br><br>You can also print the value of variables by typing <code>print variableName</code>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even a <a href="lessonPages/Lists.html">list</a>. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. They can be changed by assigning them with new values or adding onto the existing value.
 
 			            <section class="reveal">
-				            <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/Printing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modal	s"></iframe>	
+				            <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/Printing?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>	
 				        
 					        <button class="showMore btn btn-primary">Show Code Example</button>
 					    </section>

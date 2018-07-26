@@ -1,0 +1,79 @@
+.originalnavbar {
+    background-color: rgb(50, 50, 50);
+    font-family: Segoe UI, Arial, sans-serif;
+    color: rgb(230, 230, 230);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.originalnavbar a {
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.drop {
+    float: left;
+    overflow: hidden;
+}
+
+.drop .dropbtn {
+    font-size: 18px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.originalnavbar a:hover, .drop:hover .dropbtn {
+    background-color: rgba(255,255,255,.25);
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.drop-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size:16px;
+}
+
+.drop-content a:hover {
+    background-color: #ddd;
+}
+
+.drop-content .more{
+    text-align: right;
+    color: grey;
+}
+
+.drop:hover .drop-content {
+    display: block;
+}
+
+.logo{
+    float: left;
+    margin-top:5px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.login{
+    text-align: right;
+}

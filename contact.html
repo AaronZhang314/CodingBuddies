@@ -12,50 +12,45 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/modal.css">
+    <link rel="stylesheet" type="text/css" href="css/typewriter.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" href="css/font/css/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <img src="images/logo.png" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="30" width="100">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="originalnavbar fixedTop shadow">
+        <img src="images/logo.png" class="logo" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="35" width="115">
+      <a href="index.html">Home</a>
 
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item button">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item dropdown button">
-              <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Lessons</a>
-              <div class="dropdown-menu">
-                  <a class="dropdown-item" href="lessonPages/Printing.html" target="_blank">Printing and Variables</a>
-                  <a class="dropdown-item" href="lessonPages/Math.html" target="_blank">Math Operations</a>
-                  <a class="dropdown-item" href="lessonPages/If.html" target="_blank">If and Else Statements</a>
-                  <a class="dropdown-item" href="lessonPages/While.html" target="_blank">While Loops</a>
-                  <a class="dropdown-item" href="lessonPages/Lists.html" target="_blank">Lists</a>
-                  <a class="dropdown-item" href="lessonPages/For.html" target="_blank">For Loops</a>
-                  <a class="dropdown-item more" href="lessons.html" target="_blank">See All &raquo;</a>
-              </div>
-            </li>
-          <li class="nav-item dropdown button">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Links</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="https://repl.it/repls" target="_blank">Replit</a>
-              <a class="dropdown-item" href="https://wcipeg.com/main target="_blank"">PEG</a>
-              <a class="dropdown-item" href="https://dmoj.ca/" target="_blank">DMOJ</a>
-              <a class="dropdown-item" href="https://docs.python.org/2/reference/index.html" target="_blank">Python Reference</a>
-            </div>
-          </li>
-          <li class="nav-item button active">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item button">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <div class="drop">
+        <button class="dropbtn">Lessons <i class="fa fa-caret-down"></i></button>
+        <div class="drop-content">
+          <a href="lessonPages/Printing.html">Printing and Variables</a>
+            <a href="lessonPages/Math.html">Math Operations</a>
+            <a href="lessonPages/If.html">If and Else Statements</a>
+            <a href="lessonPages/While.html">While Loops</a>
+            <a href="lessonPages/Lists.html">Lists</a>
+              <a href="lessonPages/For.html">For Loops</a>
+            <a class="more" href="lessons.html">See All &raquo;</a>
+        </div>
+      </div> 
+
+      <div class="drop">
+        <button class="dropbtn">Links <i class="fa fa-caret-down"></i></button>
+        <div class="drop-content">
+          <a href="https://repl.it/repls" target="_blank">Replit</a>
+              <a href="https://wcipeg.com/main" target="_blank">PEG</a>
+              <a href="https://dmoj.ca/" target="_blank">DMOJ</a>
+              <a href="https://docs.python.org/2/reference/index.html" target="_blank">Python Reference</a>
+          </div>
+        </div>
+
+    <a href="contact.html">Contact</a>
+
+        <a href="about.html">About</a>
+
+    </div>
 
     <main role="main">
       <div class="lessonPadding">

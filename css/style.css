@@ -46,21 +46,8 @@ code{
 	background-color:#686E74;
 }
 
-.code {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-}
-
-.codeBorder{
-	border: solid #6c757d;
-    border-width: 1.5px;
-    border-radius: 5px;
-    background-color: white;
+.copyright{
+	text-align:center;
 }
 
 .imageZoom{
@@ -198,7 +185,7 @@ code{
 }
 
 .table tr:nth-child(even){
-	background: #f8f9fa;
+	background: rgba(255, 255, 255, 0.5);
 }
 
 .welcome{

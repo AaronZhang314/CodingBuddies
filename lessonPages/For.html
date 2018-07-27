@@ -32,7 +32,7 @@
           <a href="While.html">While Loops</a>
           <a href="Lists.html">Lists</a>
           <a href="For.html">For Loops</a>
-          <a class="more" href="../lessons.html">See All &raquo;</a>
+          <a class="more" href="../alessons.html">See All &raquo;</a>
         </div>
       </div> 
 
@@ -60,26 +60,26 @@
           <div class="textContainer container-fluid shadow">
             <div class="row">
               <div class="col lesson" id="recent">
-                <h2>Lists</h2>
+                <h2>For Loops</h2>
                 <p>
-                  Let's say that you wanted to input and store a bunch of numbers. Making individual variables would be a very annoying process. In that case, a list can be used instead. <strong>Lists can hold a bunch of values of the same or different type in Python and can be shown with square brackets - <code>listName = []</code></strong>. 
+                  In programming, <strong>for loops are usually used to repeatedly loop through a sequence a number of times</strong>. The syntax for doing so is <code>for i in range(start, stop, step)</code>. (Note: i is just a common letter used in coding, any letter or word is fine).<br><br>There are a few options for what you can put within the brackets (<strong>note: for loops can only take in integers, meaning no decimals)</strong>. Putting a single integer will have a loop starting from 0 and go up in increments of 1 for n times.
                   
                   <section class="reveal">
-                    <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/list?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                    <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/firstFor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
                     <button class="showMore btn btn-primary">Show Code Example</button>
                   </section>
 
-                  You can print out an entire list using <code>print listName</code> for example, but you can also print a specific index, for example the second item in the list. This can be done using print <code>listName[(index number)]</code>. Though you might try listName[2] to access the second index, but you will see that it actually goes out the third item. This is because <strong>computers count starting from 0. So instead of the indexes being 1, 2, 3... it is 0, 1, 2...</strong>
+                  Having two numbers will set a range where the loop begins at the first number and ends right when it gets second number by going up in increments of 1.
                   
                   <section class="reveal">
-                    <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/index?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                    <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/secondFor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
                     <button class="showMore btn btn-primary">Show Code Example</button>
                   </section>
 
-                  Once a list is created, you can still add more to the list using the <code>append</code> function. To do so you type <strong><code>listName.append(item)</code>, which adds the new item to the back of the list</strong>. 
+                  Lastly, putting three integers, sets the beginning, end, and the increment (start, stop, step).
                   
                   <section class="reveal">
-                    <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/append?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                    <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/thirdFor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
                     <button class="showMore btn btn-primary">Show Code Example</button>
                   </section>
 
@@ -87,39 +87,19 @@
               </div>
               <div class="col-xl-5" id="explanation">
                 <h2>More Details</h2>
-                <p>If you have a list of numbers, you can sort them in both increasing or decreasing order. This can be done using the sort function <code>listName.sort()</code>.
+                <p>In Python, it is also possible to iterate through a list with <code>for i in listName</code>. This results in the loop going through each index of the list. 
                 
                 <section class="reveal">
-                  <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/sort?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+                  <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/listFor?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
                   <button class="showMore btn btn-primary">Show Code Example</button>
                 </section>
 
-                Another way of adding into a list is to insert the item at a specific index using the insert function - <code>listName.insert(index, item)</code>.
-                
-                <section class="reveal">
-                  <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/insert?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-                  <button class="showMore btn btn-primary">Show Code Example</button>
-                </section>  
-
-                You can get the number of items in a list with <code>"len(listName)"</code>
-                
-                <section class="reveal">
-                  <iframe class="moreText" height="300px" width="100%" src="https://repl.it/@AaronZhang314/len?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-                  <button class="showMore btn btn-primary">Show Code Example</button>
-                </section>
-
-                Removing an item from a list can be done with <code>listName.pop(index)</code> which removes a specific index mentioned or <code>listName.remove(item)</code> which removes the item with that value.
-                
-                <section class="reveal">
-                  <iframe class="moreText" height="400px" width="100%" src="https://repl.it/@AaronZhang314/remove?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-                  <button class="showMore btn btn-primary">Show Code Example</button>
-                  </section>
-                </p>
+                It is also possible to have a for loop within another for loop which is called a <a href="#">nested for loop</a>, which we will go through in a later lesson.
               </div>
             </div>
             <div class="next-previous">
-              <a class="btn btn-secondary prevButton" href="While.html" role="button">&laquo; Previous Lesson</a>  
-              <a class="btn btn-secondary nextButton" href="For.html" role="button">Next Lesson &raquo;</a>  
+              <a class="btn btn-secondary prevButton" href="Lists.html" role="button">&laquo; Previous Lesson</a>  
+              <a class="btn btn-secondary nextButton" href="#" role="button">Next Lesson &raquo;</a>  
           </div>
           </div>
           <div class="textContainer container-fluid shadow">
@@ -127,8 +107,8 @@
               <div class="col-xl-10">
                 <h2>Try It Out!</h2>
                 <ul>
-                  <li>Have the user enter words, adding them to a list and print "stop" if "x" is entered. Then print the first and last element in the list. <a href="#">Submit &raquo;</a></li>
-                  <li>Ask the user for three numbers, adding them to a list. Then print the entire list. <a href="#">Submit &raquo;</a></li>
+                  <li>The user will enter a starting and ending number. Then iterate between those numbers by increments of 2. <a href="#">Submit &raquo;</a></li>
+                  <li>Ask the user for a number, then ask for that many words to add to a list. Then print the contents of the list on separate lines. <a href="#">Submit &raquo;</a></li>
                 </ul>
                 <h2>Related Problems</h2>
                 <ul>

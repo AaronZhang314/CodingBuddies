@@ -15,7 +15,6 @@
     <link rel="stylesheet" type="text/css" href="css/modal.css">
     <link rel="stylesheet" type="text/css" href="css/typewriter.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
     <link rel="stylesheet" href="css/font/css/all.css">
 
 
@@ -24,7 +23,7 @@
   <body>
     <div class="originalnavbar fixedTop shadow">
         <img src="images/logo.png" class="logo" title="Glenforest Computer Science Club" alt="GFSSCS Logo" height="35" width="115">
-        <a class="current" href="#">Home</a>
+        <a href="#">Home</a>
 
         <div class="drop">
           <button class="dropbtn">Lessons <i class="fa fa-caret-down"></i></button>
@@ -72,8 +71,12 @@
 		  	<div class="col-lg-9">
 		      <div class="textContainer container-fluid shadow">
 		        <div class="row">
-		          <div class="col" id="recent">
-		            <h2>Most Recent Lesson</h2> <h4>- Printing, Variables and Input</h4>
+		          <div class="col-md-12" id="recent">
+		            <h3>Most Recent Lesson</h3> 
+		            <hr>
+		          </div>
+		        <div class="col">
+		            <h2>Printing, Variables and Input</h2>
 
 			            <p><em>Welcome to your first lesson!</em><br class=big>In this lesson you will be learning the basics of input and output. The print function is primarily used for outputting text onto the screen. Typing <code>print "sample text"</code> will display the text written in the quotations onto the screen. <br><br>You can also print the value of variables by typing <code>print variableName</code>. Variables in programming are like containers where each unique variable name (i.e. "age") can hold a specific variable type, which can range from numbers, words, or even a <a href="lessonPages/Lists.html">list</a>. <strong>Variables can be assigned values by using an equal sign ("=")</strong>. They can be changed by assigning them with new values or adding onto the existing value.
 
@@ -131,11 +134,11 @@
 		      	</div>
 		      </div> <!-- /container -->
 		  </div>
-		  <div class="col" id="lessonBar">
+		  <div class="col">
 		  	<table class="table" id="leaderboard">
               <thead>
                 <tr class="tHead">
-                 <th>Leaderboards</th>
+                 <th><h3>Leaderboards</h3></th>
                 </tr>
               </thead>
               <tbody class="tBody">
@@ -164,6 +167,7 @@
     </main>
 
     <footer class="container copyright">
+    <hr>
       <p>&copy; Aaron Zhang 2018</p>
     </footer>
 

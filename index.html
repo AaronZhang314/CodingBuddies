@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="A website welcoming the coding buddies and anyone else who wants to learn the basics of computer programming (mainly python 2.7)">
     <meta name="author" content="Aaron Zhang">
+    <meta name="google-signin-client_id" content="573462134838-5dt4n3a5oi0ad00mrbsogo33gkbjp38g.apps.googleusercontent.com">
     <link rel="icon" href="#">
 
     <title>Coding Buddies</title>
@@ -62,6 +63,8 @@
           <h1 class="display-3 typeWriter">Welcome Coding Buddies!</h1>
           <h4 class="learnHeader">Learn the basics of computer programming</h4>
           <p><a class="btn btn-primary btn-lg" href="lessons.html" role="button">Let's Begin!</a></p>
+          <div class="g-signin2" data-onsuccess="onSignIn"></div>
+          <a href="#" onclick="signOut();">Sign out</a>
         </div>
       <div class="parallax"></div>
       
@@ -179,6 +182,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/output.js"></script>
+    <script src="js/signIn.js"></script>
+    <script src="js/signOut.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     
 
   </body>

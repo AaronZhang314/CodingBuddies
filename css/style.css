@@ -229,3 +229,6 @@ footer{
     transform: translate(-50%, 0);
 }
 
+.g-signin2{
+	text-align: center;
+}

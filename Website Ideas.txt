@@ -7,6 +7,7 @@
 5. make chat
 6. make online judge (probably with repl.it)
 7. make leaderboards
+8. add MORE problems
 
 
 ******************Advanced

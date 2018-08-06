@@ -16,7 +16,8 @@ A website for my coding buddies club that can provide basic lessons meant for be
 * Lessons include code examples to demonstrate proper syntax
 
 ## Website Ideas (to be added later)
-* Profile pages (login with Google to reduce spam accounts)
+* Specific logins for students in the class
+  * Other people can still submit code for the judge but won't be displayed on the leaderboard
 * Online judge
 * Chat discussion
 * Leaderboard for solving problems

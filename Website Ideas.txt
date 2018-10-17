@@ -1,16 +1,7 @@
 ****************Order of doing stuff
 
-1. add lessons (pygame later on)
-2. add MORE problems
-
-
-******************Advanced
-
-add chat for discussions - on side bar
-
-create an online judge for the test questions
-	- who ever answers the most (earliest) gets prize at end of month or something
-	- leaderboard (probably top 3, click to see all) 
+1. add more practice problems to Replit Classroom
+2. add lessons (pygame later on)
 
 
 ******************What to update after each week

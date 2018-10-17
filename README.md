@@ -12,14 +12,5 @@ A website for my coding buddies club that can provide basic lessons meant for be
 
 ## Content
 * Practice problems for each lesson to help improve understanding and application
-  * (Online Judge will be added later)
+  * Using Replit classroom, they can work on custom made practice problems with test cases
 * Lessons include code examples to demonstrate proper syntax
-
-## Website Ideas (to be added later)
-* Specific logins for students in the class
-  * Other people can still submit code for the judge but won't be displayed on the leaderboard
-* Online judge
-* Chat discussion
-* Leaderboard for solving problems
-  * Will be awarded prize each month or something like that
-  * Check that they must be in the Google Classroom to participate

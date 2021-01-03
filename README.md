@@ -1,5 +1,8 @@
 # CodingBuddies
-A website for my coding buddies club that can provide basic lessons meant for beginners! (not finished)
+```diff
+- Replit Code Embeds are currently not working
+```
+A website for my coding buddies club that can provide basic lessons meant for beginners! 
 
 ## Lessons
 1. Printing and Variables

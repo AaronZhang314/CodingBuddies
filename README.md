@@ -1,6 +1,6 @@
 # CodingBuddies
 ```diff
-- Replit Code Embeds are currently not working
+- Replit's embedded code blocks are currently not working which is very unfortunate :(
 ```
 This website was initially developed to complement the weekly tutoring lessons at my highschool's feeder school!
 

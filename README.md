@@ -2,7 +2,7 @@
 ```diff
 - Replit Code Embeds are currently not working
 ```
-A website for my coding buddies club that can provide basic lessons meant for beginners! 
+This website was initially developed to complement the weekly tutoring lessons at my highschool's feeder school!
 
 ## Lessons
 1. Printing and Variables
